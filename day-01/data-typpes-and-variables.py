@@ -47,3 +47,39 @@ print(p)
 # 无限大
 r = inf
 print(r)
+
+# 第二次练习
+# 字符串
+print('====== 第二次练习 ======')
+print('a')
+print('"a"')
+print('\'a"')
+print('\n')
+print(r'\n')
+print('''the first line
+the second line\n
+the third line''')
+print(r'''the first line
+the second line\n
+the third line''')
+# 布尔值 注意大小写
+print(0 > 1)
+print(2 > 1)
+print(True, False)
+# 布尔运算
+print(0 and 1)
+print(1 and 1)
+print(0 or 1)
+print(0 or 0)
+print(not 0)
+print(not 1)
+# 空值
+print(None)
+# 除法运算
+print(10 / 3)
+print(9 / 3)
+# 地板除
+print(10 // 3)
+print(9 // 3)
+print(10 % 3)
+print(9 % 3)
