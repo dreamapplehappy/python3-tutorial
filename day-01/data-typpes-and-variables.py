@@ -1,4 +1,5 @@
 # 整数
+import math
 from math import inf
 a = 100
 # 浮点数
@@ -83,3 +84,8 @@ print(10 // 3)
 print(9 // 3)
 print(10 % 3)
 print(9 % 3)
+# 无限大的数
+print(10e100)
+
+print(float('NaN'))
+print(math.isnan(0))
