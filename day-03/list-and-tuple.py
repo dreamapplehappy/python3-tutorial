@@ -35,3 +35,36 @@ tu1 = (1) # 这相当于定义了 tu1 = 1 而不是一个tuple
 print(tu1)
 tu2 = (1,) # 规定一个元素的tuple需要添加一个逗号
 print(tu2) # 输出单个元素tuple也会加上一个逗号
+
+# 第二次学习
+classmates = ['张三', '李四', '王五'] # 这是list数据类型
+# 末未添加
+classmates.append('李狗蛋')
+print(classmates)
+# 尾部删除
+classmates.pop()
+print(classmates)
+# 删除指定位置的元素
+classmates.pop(0)
+print(classmates)
+# 在指定位置添加元素
+classmates.insert(0, '张三')
+print(classmates)
+# 修改指定位置的元素
+classmates[0] = '李狗蛋'
+print(classmates)
+# 打印指定位置的元素
+print(classmates[-1])
+print(classmates[0])
+
+# 元组
+atom = (1, 2, 3)
+print(atom)
+
+# 无法修改元素
+# 一个元素的元组
+atom1 = (1, )
+print(atom1)
+# 计算长度
+print(len(classmates))
+
