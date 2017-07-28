@@ -39,3 +39,45 @@ s.add((1, 2, 3)) # 可以添加元组
 print(s)
 # s.add((1, [2, 3])) # 不可以添加tuple里面包含list就不是不可变的对象了
 print(s)
+
+# 第二次学习
+# dict
+classmates = {
+    'zhangsan': '张三',
+    'lisi': '李四',
+    'wangwu': '王五',
+}
+# 查找
+print(classmates['zhangsan'])
+# 替换
+classmates['zhangsan'] = '三张'
+print(classmates)
+# 删除某个key
+classmates.pop('zhangsan')
+print(classmates)
+# 哪一个键是否存在
+print('zhangsan' in classmates)
+print(classmates.get('zhangsan'))
+print(classmates.get('zhangsan', -1))
+# 添加键值
+classmates['ligoudan'] = '李狗蛋'
+print(classmates)
+
+# set
+arr = {1, 2, 3} # 不重合的元素
+print(arr)
+arr.add(3) # 重合的元素
+print(arr)
+arr.add(4)
+print(arr)
+
+arr1 = {3, 4, 5}
+print(arr1 & arr) # 求两个集合的交集
+print(arr1 | arr) # 求两个集合的并集
+
+# arr1.add([1, 2, 3]) 不可以添加list元素，因为list元素是可变的
+arr1.remove(5) # 删除一个元素
+print(arr1)
+arr1.add((1, 2, 3))
+print(arr1)
+# arr1.add((1, 2, [1, 2])) # 元组里面包含可变的list所以也是不可以的

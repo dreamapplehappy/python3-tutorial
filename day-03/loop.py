@@ -36,3 +36,29 @@ while n > 0:
     n -= 2
     sum += n
 print(sum)
+
+# 第二次学习
+classmates = ['张三', '李四', '王五']
+for name in classmates:
+    print(name)
+# 使用range生成list range是从0开始的
+for num in range(11):
+    print(num)
+# 使用while循环
+n = 10
+while n > 0:
+    n = n - 1
+    print(n)
+
+# 使用continue 或者 break
+for name in classmates:
+    if name == '张三':
+        continue
+    print(name)
+
+times = 6
+while times > 0:
+    if times == 3:
+        break
+    times = times - 1
+    print(times)
