@@ -82,7 +82,33 @@ print(sum3.__name__)
 sum4()
 print(sum4.__name__)
 
+print('------ divider ------')
 
+from functools import wraps
 
+def logX(arg):
+    if callable(arg):
+        func = arg
+        def wrapper(*args, **kw):
+            print('before')
+            func(*args, **kw)
+        return wrapper
+    else:
+        def decorator(func):
+            def wrapper(*args, **kw):
+                print(arg)
+                print('before')
+                func(*args, **kw)
+            return wrapper
+        return decorator
 
+@logX
+def sum7():
+    pass
 
+@logX(123)
+def sum8():
+    pass
+
+sum7()
+sum8()
