@@ -1,5 +1,24 @@
 ### learn python3
 
+#### 下面是学习的过程中遇到的一些问题，以及解决方案。
+
+* `Tue Aug 15 2017 13:07:43` 关于Python装饰器，如何做到既可以给装饰器添加参数，也可以不添加参数[Writing a Python decorator that can be called as a function or a callable](http://chase-seibert.github.io/blog/2013/12/17/python-decorator-optional-parameter.html)
+    以及[How to create a Python decorator that can be used either with or without parameters?](https://stackoverflow.com/questions/653368/how-to-create-a-python-decorator-that-can-be-used-either-with-or-without-paramet)
+* `Tue Aug 15 2017 11:44:05` 关于Python`functools`模块中`wraps`的问题[What does functools.wraps do?](https://stackoverflow.com/questions/308999/what-does-functools-wraps-do)
+* `Mon Aug 07 2017 23:16:42` 关于Python闭包以及`lambda`的问题[What do (lambda) function closures capture?](https://stackoverflow.com/questions/2295290/what-do-lambda-function-closures-capture)
+* `Sun Aug 06 2017 15:21:38` 关于Python的三目运算符[Does Python have a ternary conditional operator?](https://stackoverflow.com/questions/394809/does-python-have-a-ternary-conditional-operator)
+* `Sun Aug 06 2017 12:42:34` 关于Python变量的作用域的问题[Python nonlocal statement](https://stackoverflow.com/questions/1261875/python-nonlocal-statement)
+* `Sun Aug 06 2017 01:21:10` 关于Python使用`list`的`index`方法查找元素，当查找的元素不存在的时候的处理方法[Best way to handle list.index(might-not-exist) in python?](https://stackoverflow.com/questions/2132718/best-way-to-handle-list-indexmight-not-exist-in-python)和[Python index of item in list without error?](https://stackoverflow.com/questions/13160564/python-index-of-item-in-list-without-error)
+* `Sun Aug 06 2017 00:22:38` 关于Python的变量[Python variable declaration](https://stackoverflow.com/questions/11007627/python-variable-declaration)
+* `Thu Aug 03 2017 22:19:22` 关于Python为什么没有`++`和`--`运算符[Why are there no ++ and --​ operators in Python?](https://stackoverflow.com/questions/3654830/why-are-there-no-and-operators-in-python)
+* `Mon Jul 31 2017 10:45:52` 关于内置函数[enumerate](https://docs.python.org/3/library/functions.html#enumerate)
+* `Sun Jul 30 2017 22:11:50` 关于切片的一篇文章，可以加深对切片的理解[How to Slice Lists/Arrays and Tuples in Python](http://pythoncentral.io/how-to-slice-listsarrays-and-tuples-in-python/)
+* `Sat Jul 29 2017 23:36:07` 关于如何展开一个列表参数[Unpacking Argument Lists](https://docs.python.org/2/tutorial/controlflow.html#unpacking-argument-lists)
+* `Sat Jul 29 2017 23:11:04` 关于Python中`is`与`==`的区别[Why does comparing strings in Python using either '==' or 'is' sometimes produce a different result?](https://stackoverflow.com/questions/1504717/why-does-comparing-strings-in-python-using-either-or-is-sometimes-produce)和[String comparison in Python: is vs. == ](https://stackoverflow.com/questions/2988017/string-comparison-in-python-is-vs)
+* `Mon Jul 24 2017 23:57:15` [关于格式化输出多个值](http://www.python-course.eu/python3_formatted_output.php)
+* `Mon Jul 24 2017 23:16:48` [关于数字的有限和无限问题](https://stackoverflow.com/questions/5438745/python-nan-and-inf-values)
+
+
 #### 学习的进度如下所示：
 
 + [ ] Python教程
@@ -126,25 +145,6 @@
         + [ ] Day 16 - 编写移动App
     + [ ] FAQ
     + [ ] 期末总结
-
-
-#### 下面是学习的过程中遇到的一些问题，以及解决方案。
-
-* `Tue Aug 15 2017 13:07:43` 关于Python装饰器，如何做到既可以给装饰器添加参数，也可以不添加参数[Writing a Python decorator that can be called as a function or a callable](http://chase-seibert.github.io/blog/2013/12/17/python-decorator-optional-parameter.html)
-    以及[How to create a Python decorator that can be used either with or without parameters?](https://stackoverflow.com/questions/653368/how-to-create-a-python-decorator-that-can-be-used-either-with-or-without-paramet)
-* `Tue Aug 15 2017 11:44:05` 关于Python`functools`模块中`wraps`的问题[What does functools.wraps do?](https://stackoverflow.com/questions/308999/what-does-functools-wraps-do)
-* `Mon Aug 07 2017 23:16:42` 关于Python闭包以及`lambda`的问题[What do (lambda) function closures capture?](https://stackoverflow.com/questions/2295290/what-do-lambda-function-closures-capture)
-* `Sun Aug 06 2017 15:21:38` 关于Python的三目运算符[Does Python have a ternary conditional operator?](https://stackoverflow.com/questions/394809/does-python-have-a-ternary-conditional-operator)
-* `Sun Aug 06 2017 12:42:34` 关于Python变量的作用域的问题[Python nonlocal statement](https://stackoverflow.com/questions/1261875/python-nonlocal-statement)
-* `Sun Aug 06 2017 01:21:10` 关于Python使用`list`的`index`方法查找元素，当查找的元素不存在的时候的处理方法[Best way to handle list.index(might-not-exist) in python?](https://stackoverflow.com/questions/2132718/best-way-to-handle-list-indexmight-not-exist-in-python)和[Python index of item in list without error?](https://stackoverflow.com/questions/13160564/python-index-of-item-in-list-without-error)
-* `Sun Aug 06 2017 00:22:38` 关于Python的变量[Python variable declaration](https://stackoverflow.com/questions/11007627/python-variable-declaration)
-* `Thu Aug 03 2017 22:19:22` 关于Python为什么没有`++`和`--`运算符[Why are there no ++ and --​ operators in Python?](https://stackoverflow.com/questions/3654830/why-are-there-no-and-operators-in-python)
-* `Mon Jul 31 2017 10:45:52` 关于内置函数[enumerate](https://docs.python.org/3/library/functions.html#enumerate)
-* `Sun Jul 30 2017 22:11:50` 关于切片的一篇文章，可以加深对切片的理解[How to Slice Lists/Arrays and Tuples in Python](http://pythoncentral.io/how-to-slice-listsarrays-and-tuples-in-python/)
-* `Sat Jul 29 2017 23:36:07` 关于如何展开一个列表参数[Unpacking Argument Lists](https://docs.python.org/2/tutorial/controlflow.html#unpacking-argument-lists)
-* `Sat Jul 29 2017 23:11:04` 关于Python中`is`与`==`的区别[Why does comparing strings in Python using either '==' or 'is' sometimes produce a different result?](https://stackoverflow.com/questions/1504717/why-does-comparing-strings-in-python-using-either-or-is-sometimes-produce)和[String comparison in Python: is vs. == ](https://stackoverflow.com/questions/2988017/string-comparison-in-python-is-vs)
-* `Mon Jul 24 2017 23:57:15` [关于格式化输出多个值](http://www.python-course.eu/python3_formatted_output.php)
-* `Mon Jul 24 2017 23:16:48` [关于数字的有限和无限问题](https://stackoverflow.com/questions/5438745/python-nan-and-inf-values)
 
 
 MIT License
