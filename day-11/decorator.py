@@ -55,4 +55,34 @@ def sum2():
 sum2()
 print(sum2.__name__)
 
+# test
+
+def test_log(argument = 1):
+    def decorator(func):
+        @functools.wraps(func)
+        def wrapper(*args, **kw):
+            print(argument)
+            print('before %s called' % (func.__name__))
+            func(*args, **kw)
+            print('after %s called' % (func.__name__))
+        return wrapper
+    return decorator
+
+@test_log()
+def sum3():
+    pass
+
+@test_log('sth')
+def sum4():
+    pass
+
+print('------ divider ------')
+sum3()
+print(sum3.__name__)
+sum4()
+print(sum4.__name__)
+
+
+
+
 
