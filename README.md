@@ -1,6 +1,6 @@
 ### learn python3
 
-学习的进度如下所示：
+#### 学习的进度如下所示：
 
 + [ ] Python教程
     + [x] Python简介
@@ -128,7 +128,7 @@
     + [ ] 期末总结
 
 
-下面是学习的过程中遇到的一些问题，以及解决方案。
+#### 下面是学习的过程中遇到的一些问题，以及解决方案。
 
 * `Tue Aug 15 2017 13:07:43` 关于Python装饰器，如何做到既可以给装饰器添加参数，也可以不添加参数[Writing a Python decorator that can be called as a function or a callable](http://chase-seibert.github.io/blog/2013/12/17/python-decorator-optional-parameter.html)
     以及[How to create a Python decorator that can be used either with or without parameters?](https://stackoverflow.com/questions/653368/how-to-create-a-python-decorator-that-can-be-used-either-with-or-without-paramet)
