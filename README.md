@@ -1,17 +1,15 @@
 ### learn python3
 
-学习过程中遇到的问题以及解决方案，这些问题是我学习一路来遇到的问题以及一些解决方案[学习Python的过程中遇到的问题以及解决办法](https://github.com/dreamapplehappy/python3-tutorial/wiki/%E5%AD%A6%E4%B9%A0Python%E7%9A%84%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98)
-
 学习的进度如下所示：
 
-+ [] x
-    - [] c
-    - [] d
++ [ ] x
+    - [ ] c
+    - [ ] d
 
 
 
 
-
+下面是学习的过程中遇到的一些问题，以及解决方案。
 
 * `Tue Aug 15 2017 11:44:05 GMT+0800 (CST)` 关于Python的`functools.wraps`的问题[What does functools.wraps do?](https://stackoverflow.com/questions/308999/what-does-functools-wraps-do)
 * `Mon Aug 07 2017 23:16:42 GMT+0800 (CST)` 关于Python闭包以及`lambda`的问题[What do (lambda) function closures capture?](https://stackoverflow.com/questions/2295290/what-do-lambda-function-closures-capture)
