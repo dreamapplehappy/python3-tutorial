@@ -1,3 +1,33 @@
+# ## 第二次学习 ## #
+# 定义函数的时候注意函数的参数的位置，必选参数，可选参数，可变参数，命名关键字参数，关键字参数
+
+# 注意默认参数
+def test1(list1=[]):
+    list1.append('test')
+    return list1
+
+
+print(test1())
+print(test1())
+print(test1())
+print(test1([1, 2, 3]))
+
+
+# 参数的传递
+def func1(a, b, c=0, *args, **kw):
+    print('a =', a, 'b =', b, 'c =', c, 'args =', args, 'kw =', kw)
+
+
+func1(1, 2, 3, 4, name='dreamapple', age=23)  # a= 1 b= 2 c= 3 args= (4,) kw= {'age': 23, 'name': 'dreamapple'}
+
+
+def func2(a, b=0, *args, name, age, **kw):
+    print('a =', a, 'b =', b, 'args =', args, 'name =', name, 'age =', age, 'kw =', kw)
+
+func2(1, 2, 3, 4, 5, name='dreamapple', age=23, city='Hangzhou')
+
+# ## 第一次学习 ## #
+
 # 位置参数
 def power(num):
     result = num * num
