@@ -42,7 +42,7 @@ def str2int(string):
 
 print(str2int('12345')) # 12345
 
-# test 1
+# test.md 1
 def normalize(name):
     return name.capitalize() # 使用字符串的capitalize方法
 L1 = ['adam', 'LISA', 'barT']

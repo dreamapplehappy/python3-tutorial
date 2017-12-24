@@ -3,7 +3,7 @@
 
 # 注意默认参数
 def test1(list1=[]):
-    list1.append('test')
+    list1.append('test.md')
     return list1
 
 

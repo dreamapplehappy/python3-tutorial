@@ -26,7 +26,7 @@ def logger(text):
         return wrapper
     return decorator
 
-@logger('test')
+@logger('test.md')
 def sum1():
     pass
 
@@ -55,7 +55,7 @@ def sum2():
 sum2()
 print(sum2.__name__)
 
-# test
+# test.md
 
 def test_log(argument = 1):
     def decorator(func):
