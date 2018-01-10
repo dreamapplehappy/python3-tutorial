@@ -82,12 +82,12 @@
         + [x] StringIO和BytesIO
         + [x] 操作文件和目录
         + [x] 序列化
-    + [ ] 进程和线程
-        + [ ] 多进程
-        + [ ] 多线程
-        + [ ] ThreadLocal
-        + [ ] 进程 vs. 线程
-        + [ ] 分布式进程
+    + [x] 进程和线程
+        + [x] 多进程
+        + [x] 多线程
+        + [x] ThreadLocal
+        + [x] 进程 vs. 线程
+        + [x] 分布式进程
     + [ ] 正则表达式
     + [ ] 常用内建模块
         + [ ] datetime
@@ -111,10 +111,10 @@
     + [ ] 电子邮件
         + [ ] SMTP发送邮件
         + [ ] POP3收取邮件
-    + [ ] 访问数据库
-        + [ ] 使用SQLite
-        + [ ] 使用MySQL
-        + [ ] 使用SQLAlchemy
+    + [x] 访问数据库
+        + [x] 使用SQLite
+        + [x] 使用MySQL
+        + [x] 使用SQLAlchemy
     + [ ] Web开发
         + [ ] HTTP协议简介
         + [ ] HTML简介
