@@ -117,6 +117,50 @@ print(c_list.count(2))
 print(c_list.index(2))
 # print(c_list.index(2, 3, 5)) # ValueError: 2 is not in list
 
+# 从列表中删除元素
+print('------')
+d_list = [1, 3, 5, 7, 9]
+print(d_list)
+# 使用 del 语句从列表中删除某个特定元素
+del d_list[0]
+print(d_list)
+del d_list[:2]
+print(d_list)
+d_list.append(9)
+print(d_list)
+# 通过 remove() 方法从列表中删除某个元素。remove() 方法接受一个 value 参数，并删除列表中该值的第一次出现
+d_list.remove(9)
+print(d_list)
+d_list.remove(9)
+print(d_list)
+print('------')
+e_list = [1, 2, 3, 4, 5, 6]
+print(e_list)
+print(e_list.pop())
+print(e_list)
+print(e_list.pop(0))
+print(e_list)
+# 布尔上下文环境中的列表
+# 在布尔类型上下文环境中，空列表为假值
+# 任何至少包含一个上元素的列表为真值
+# 任何至少包含一个上元素的列表为真值。元素的值无关紧要
+f_list = []
+is_it_true(f_list)
+f_list.append(False)
+is_it_true(f_list)
+
+# 元组
+# 元组的定义方式和列表相同，除了整个元素的集合都用圆括号，而不是方括号闭合
+a_tuple = (1, 2, 3, 4, 5)
+print(a_tuple)
+print(a_tuple[0])
+print(a_tuple[-1])
+print(a_tuple[:-1])
+# 元组和列表的主要区别是元组不能进行修改
+print(2 in a_tuple)
+print(a_tuple.index(2))
+# 元组可转换成列表，反之亦然。内建的 tuple() 函数接受一个列表参数，并返回一个包含同样元素的元组，而 list() 函数接受一个元组参数并返回一个列表
+print(tuple([1, 2, 3]))
 
 
 
