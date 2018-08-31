@@ -65,9 +65,9 @@
 # print('\n')
 def is_it_true(anything):
     if anything:
-        print('{0} is true'.format(anything))
+        print("yes, it's true")
     else:
-        print('{0} is false'.format(anything))
+        print("no, it's false")
 #
 # is_it_true(1)
 # is_it_true(-1)
@@ -251,19 +251,27 @@ is_it_true(set())
 is_it_true({False})
 
 
+# 字典
 
+a_dict = {'name': 'dreamapple', 'age': 25}
+print(a_dict)
+print(a_dict['name'])
+a_dict['name'] = 'happy'
+print(a_dict['name'])
+a_dict['job'] = 'Front end Engineer'
+print(a_dict)
+a_dict[1] = 'first'
+print(a_dict)
 
+print(len(a_dict))
+print(1 in a_dict)
 
+is_it_true({})
+is_it_true({'a': 1})
 
+# None
+print(type(None))
+print(None == False)
 
-
-
-
-
-
-
-
-
-
-
-
+is_it_true(None)
+is_it_true(not None)
